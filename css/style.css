@@ -206,3 +206,29 @@ p {
   font-size: 36px;
   line-height: 1.5;
 }
+
+.works {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #323232;
+}
+
+.works-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.works-item {
+  width: 350px;
+}
+
+.slick-next::before {
+  content: '\261B';
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 30px;
+  color: darkorange;
+}
